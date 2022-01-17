@@ -39,7 +39,8 @@ function App() {
     <div className="App">
 
       <form action="#" onSubmit={handleFormSubmit}>
-        <label htmlFor="search" >Search</label>
+      <h1>Art  </h1>
+        <label htmlFor="search Here" >Search</label>
         <input type="input" id="search" onChange={handleInput} value={userInput} />
         <button>Search</button>
       </form>
@@ -57,7 +58,6 @@ function App() {
     </div>
   );
 }
-
 export default App;
 // sQc1luCX
 
